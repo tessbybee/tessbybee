@@ -1,8 +1,7 @@
-h1 {
-    color: red;
+body {
+    background-color: bisque;
+    background-image: url("http://i.imgur.com/VBUF9NK.png?1");
 }
-div {
-    background-color: azure;
-    height: 100%;
-    width: 100%;
+iframe {
+   border: groove 10px orange;
 }
