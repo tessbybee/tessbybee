@@ -3,6 +3,21 @@ body {
     background-image: url("http://i.imgur.com/VBUF9NK.png?1");
     margin: 0;
     padding: 0;
+    position: relative;
+    z-index: 0;
+    height: 100%;
+}
+
+    
+div {
+    min-height: 100%;
+    width: 51%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: inherit;
+    z-index: 1;
+    background-color: #D7DFFF;
 }
 
 iframe.video {
@@ -21,15 +36,6 @@ iframe.music {
     margin: 0 auto;
     float: none;
     margin-top: 20px;
-}
-    
-div {
-    background-color: #D7DFFF;
-    min-height: 100%;
-    width: 51.2%;
-    display: block;
-    margin: 0 auto;
-    float: none;
 }
 
 img {
