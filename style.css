@@ -1,9 +1,15 @@
 body {
+    height: 100%;
     background-image: url("http://i.imgur.com/VBUF9NK.png?1");
     margin: 0;
     padding: 0;
     position: relative;
     z-index: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
     
