@@ -2,5 +2,7 @@ h1 {
     color: red;
 }
 div {
+    background-color: azure;
     height: 100%;
+    width: 100%;
 }
