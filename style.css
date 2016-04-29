@@ -1,7 +1,10 @@
 body {
     background-color: bisque;
     background-image: url("http://i.imgur.com/VBUF9NK.png?1");
+    margin: 0;
+    padding: 0;
 }
+
 iframe.video {
     border: double 20px #B5DEE4;
     border-radius: 50px;
@@ -10,6 +13,7 @@ iframe.video {
     float: none;
     margin-top: 50px;
 }
+
 iframe.music {
     border: double 20px #B5DEE4;
     border-radius: 50px;
@@ -17,16 +21,17 @@ iframe.music {
     margin: 0 auto;
     float: none;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
+    
 div {
     background-color: #D7DFFF;
-    height: 100%;
-    width: 51.7%;
+    min-height: 100%;
+    width: 51.2%;
     display: block;
     margin: 0 auto;
     float: none;
 }
+
 img {
     display: block;
     margin: 0 auto;
