@@ -3,5 +3,23 @@ body {
     background-image: url("http://i.imgur.com/VBUF9NK.png?1");
 }
 iframe {
-   border: groove 10px orange;
+    border: double 20px #B5DEE4;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    margin-top: 50px;
+}
+div {
+    background-color: #D7DFFF;
+    height: 650px;
+    width: 51.2%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    float: none;
 }
