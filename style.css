@@ -4,13 +4,22 @@ body {
     margin: 0;
     padding: 0;
 }
+
 html{
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
-    
+h2{
+    text-align: center;
+    color: aqua;
+    border: 5px solid pink;
+    border-radius: 10px;
+    background-image: url(http://i.imgur.com/vZjtkRc.jpg?1);
+    padding: 20px;
+}
+
 div {
     min-height: 100%;
     width: 51.2%;
@@ -21,8 +30,8 @@ div {
 }
 
 iframe.video {
-    border: double 20px #B5DEE4;
-    border-radius: 50px;
+    border: hidden 20px #B5DEE4;
+    border-radius: 10px;
     display: block;
     margin: 0 auto;
     float: none;
@@ -30,8 +39,8 @@ iframe.video {
 }
 
 iframe.music {
-    border: double 20px #B5DEE4;
-    border-radius: 50px;
+    border: hidden 20px #B5DEE4;
+    border-radius: 10px;
     display: block;
     margin: 0 auto;
     float: none;
@@ -46,7 +55,12 @@ img {
 
 a img {
     display: inline;
-    margin: 50px 15px 0;
-    height: 200px;
-    max-width: 600px;
+    margin: 25px 15px 25px;
+    height: 350px;
+    padding: 1px
 } 
+
+.img {
+    border: 0;
+    text-decoration: none;
+}
