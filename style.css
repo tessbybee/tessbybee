@@ -1,12 +1,13 @@
 body {
     min-height: 1000px;
-    width: 100%:
+    width: 100%;
     display: block;
     margin: 0 auto;
     float: none;
     background-color: #D7DFFF;
-    height: 1600px;
+    height: 1700px;
     max-width: 980px;
+    position: relative;
 }
 
 html {
@@ -107,5 +108,11 @@ p {
 }
 
 footer {
+    width: 100%;
+    text-align: center;
     clear: both;
+    display: block;
+    float: none;
+    position: absolute;
+    bottom: 0;
 }
