@@ -108,6 +108,7 @@ p {
 }
 
 footer {
+    font-size: 18px;
     width: 100%;
     text-align: center;
     clear: both;
@@ -115,4 +116,5 @@ footer {
     float: none;
     position: absolute;
     bottom: 0;
+    margin-bottom: 10px;
 }
