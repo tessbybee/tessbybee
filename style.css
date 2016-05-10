@@ -61,9 +61,10 @@ iframe.video {
     margin-top: 50px;
 }
 
-h3{
+h3, h2{
     text-align: center;
     color: #FF9602;
+    margin-bottom: 50px;
 }
 
 iframe.music {
@@ -117,4 +118,13 @@ footer {
     position: absolute;
     bottom: 0;
     margin-bottom: 10px;
+}
+
+.shows li {
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+    display: block;
+    padding-right: 35px;
+    margin: 20px;
 }
