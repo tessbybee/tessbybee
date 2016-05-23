@@ -78,7 +78,7 @@ iframe.music {
 
 a img {
     display: inline-block;
-    margin: 25px 15px;
+    margin: 40px 20px;
     max-height: 340px;
     padding: 1px;
     width: auto;
@@ -127,4 +127,8 @@ footer {
     display: block;
     padding-right: 35px;
     margin: 20px;
+}
+
+.gallery {
+    display: flex-start;
 }
