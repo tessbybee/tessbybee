@@ -8,6 +8,7 @@ body {
     height: 1700px;
     max-width: 980px;
     position: relative;
+    overflow-x: hidden;
 }
 
 html {
@@ -18,7 +19,10 @@ html {
     background-image: url("http://i.imgur.com/vF9JWO6.png?1");
 }
 
-
+.main {
+    position: absolute;
+    
+}
 
 img.logo {
     display: block;
@@ -49,7 +53,20 @@ img.logo {
     text-decoration: none;
     color: black;
     background-color: pink;
-    padding: 5px;
+    padding: 1px;
+}
+.vidwrapper {
+	position: relative;
+	padding-bottom: 33.75%;
+    
+}
+
+.vidwrapper iframe {
+    position: absolute;
+	width: 60%;
+    height: 100%;
+    top: 0;
+    left: 20%;
 }
 
 iframe.video {
@@ -68,40 +85,42 @@ h3, h2{
 }
 
 iframe.music {
-    border: hidden 20px #B5DEE4;
-    border-radius: 10px;
     display: block;
     margin: 0 auto;
     float: none;
     margin-top: 100px;
-}
+    }
 
 a img {
+    min-width: 300px;
     display: inline-block;
-    margin: 40px 20px;
-    max-height: 340px;
-    padding: 1px;
-    width: auto;
-} 
-
-.img {
-    border: 0;
+    margin: 1rem .5rem;
+    max-height: 350px;
     text-decoration: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    position: relative;
+} 
+a {
+    text-decoration: none;
 }
-
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
 .slug {
     margin: 0 auto;
     display: block;
+    width: 55%;
+    height: auto;
 }
+
 p {
     line-height: 1.5;
     text-align: justify;
-    margin: 10px 190px;
+    margin: 0 auto;
+    max-width: 60%;
 }
+
 .press {
     margin: 0 auto;
     display: block;
@@ -128,7 +147,15 @@ footer {
     padding-right: 35px;
     margin: 20px;
 }
-
 .gallery {
-    display: flex-start;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    float: left;
+}
+.innergal {
+    width: 96%;
+    margin: 0 2%;
+    display: block;
+    float: none;
 }
